@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bCi2UZ/VpFfg4/9EYwP6FeNAz08x7rcYb6/N3+uinhoFl/YNvwwCFt7vhcklic+Rszi1h952gC79PuDuUUKb0g==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\client\\client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zharn\\.nuget\\packages\\nlog\\5.2.4\\nlog.5.2.4.nupkg.sha512",
+    "C:\\Users\\zharn\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\zharn\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+2023-10-01 13:46:27.9530|INFO|server.Server|FetchFileData
+2023-10-01 13:46:28.0257|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-01 13:46:53.5160|INFO|server.Server|GetFileRow System.String ""
+2023-10-01 13:46:53.5763|INFO|server.Server|{"code":-2146233033,"message":"The input string \u0027\u0027 was not in a correct format.","data":null}
+2023-10-01 13:46:57.0749|INFO|server.Server|GetFileRow System.String "1"
+2023-10-01 13:46:57.0749|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1985,90,Byick,MotorMotors,True,"]}
+2023-10-01 13:47:07.9315|INFO|server.Server|DeleteLines System.String[] ["1"]
+2023-10-01 13:47:07.9315|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-01 13:47:09.4461|INFO|server.Server|FetchFileData
+2023-10-01 13:47:09.4475|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}

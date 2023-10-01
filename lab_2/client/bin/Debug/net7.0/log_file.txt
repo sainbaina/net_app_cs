@@ -1,0 +1,9 @@
+
+2023-10-01 13:46:28.0764|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:46:53.5781|WARN|client.Program|--- status: -2146233033 message: The input string '' was not in a correct format. data: 
+2023-10-01 13:46:57.0817|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:46:59.2943|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:46:59.8902|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:47:00.2259|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:47:07.9459|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:47:09.4491|INFO|client.Program|--- status: 1 message: success data: System.String[]
