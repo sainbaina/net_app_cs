@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\client\\client.csproj": {}
+    "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\client\\client.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\client\\client.csproj": {
+    "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\client\\client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\client\\client.csproj",
+        "projectUniqueName": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\client\\client.csproj",
         "projectName": "client",
-        "projectPath": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\client\\client.csproj",
+        "projectPath": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\client\\client.csproj",
         "packagesPath": "C:\\Users\\zharn\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\client\\obj\\",
+        "outputPath": "c:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zharn\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\server\\server.csproj": {}
+    "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\server\\server.csproj": {
+    "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\server\\server.csproj",
+        "projectPath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\server\\server.csproj",
         "packagesPath": "C:\\Users\\zharn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\lab_2\\server\\obj\\",
+        "outputPath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_2\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zharn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.2.4, )"

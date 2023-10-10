@@ -7,3 +7,30 @@
 2023-10-01 13:47:00.2259|INFO|client.Program|--- status: 1 message: success data: System.String[]
 2023-10-01 13:47:07.9459|INFO|client.Program|--- status: 1 message: success data: System.String[]
 2023-10-01 13:47:09.4491|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:47:54.7842|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:47:58.1003|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:48:01.4591|WARN|client.Program|--- status: -2146233033 message: The input string '' was not in a correct format. data: 
+2023-10-02 12:48:06.1970|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:09.4613|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:13.2049|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:22.1083|ERROR|client.Program|String 'tr4e' was not recognized as a valid Boolean.
+2023-10-02 12:48:22.1083|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:32.3992|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:50:33.3876|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:50:49.9195|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-02 12:51:15.8928|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:24.6672|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-02 12:51:24.6672|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:39.0734|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-02 12:51:39.0734|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:43.3525|ERROR|client.Program|Arithmetic operation resulted in an overflow.
+2023-10-02 12:51:43.3525|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:51.6704|ERROR|client.Program|Arithmetic operation resulted in an overflow.
+2023-10-02 12:51:51.6704|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:52:34.6388|ERROR|client.Program|Arithmetic operation resulted in an overflow.
+2023-10-02 12:52:34.6388|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:53:38.0673|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:02.7753|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:17.3548|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:19.9709|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:45.6469|INFO|client.Program|--- status: 1 message: success data: System.String[]

@@ -1,0 +1,140 @@
+2023-10-01 13:46:27.9530|INFO|server.Server|FetchFileData
+2023-10-01 13:46:28.0257|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-01 13:46:53.5160|INFO|server.Server|GetFileRow System.String ""
+2023-10-01 13:46:53.5763|INFO|server.Server|{"code":-2146233033,"message":"The input string \u0027\u0027 was not in a correct format.","data":null}
+2023-10-01 13:46:57.0749|INFO|server.Server|GetFileRow System.String "1"
+2023-10-01 13:46:57.0749|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1985,90,Byick,MotorMotors,True,"]}
+2023-10-01 13:47:07.9315|INFO|server.Server|DeleteLines System.String[] ["1"]
+2023-10-01 13:47:07.9315|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-01 13:47:09.4461|INFO|server.Server|FetchFileData
+2023-10-01 13:47:09.4475|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:47:54.6026|INFO|server.Server|FetchFileData
+2023-10-02 12:47:54.6968|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:47:58.0445|INFO|server.Server|GetFileRow System.String "1"
+2023-10-02 12:47:58.0997|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1985,90,Byick,MotorMotors,True,"]}
+2023-10-02 12:48:01.4521|INFO|server.Server|GetFileRow System.String ""
+2023-10-02 12:48:01.4521|INFO|server.Server|{"code":-2146233033,"message":"The input string \u0027\u0027 was not in a correct format.","data":null}
+2023-10-02 12:48:06.1664|INFO|server.Server|DeleteLines System.String[] ["9"]
+2023-10-02 12:48:06.1794|INFO|server.Server|{"code":-1,"message":"CUSTOM_ERR: wrong indexes","data":null}
+2023-10-02 12:48:32.3296|INFO|server.Server|WriteLines app.Car[] [{"prod_year":1,"max_speed":1,"name":"1","company":"1","was_in_accident":true}]
+2023-10-02 12:48:32.3986|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-02 12:50:33.2851|INFO|server.Server|FetchFileData
+2023-10-02 12:50:33.3863|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:50:49.8600|INFO|server.Server|GetFileRow System.String "9"
+2023-10-02 12:50:49.9188|INFO|server.Server|{"code":-2146233086,"message":"Index was out of range. Must be non-negative and less than the size of the collection. (Parameter \u0027index\u0027)","data":null}
+2023-10-02 12:51:15.8909|INFO|server.Server|GetFileRow System.String "1"
+2023-10-02 12:51:15.8909|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1985,90,Byick,MotorMotors,True,"]}
+2023-10-02 12:53:37.9962|INFO|server.Server|WriteLines app.Plane[] [{"wings_width":123,"speed":200,"name":"Deee","prod_country":"USA","needs_repair":true}]
+2023-10-02 12:53:38.0667|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-02 12:54:02.7486|INFO|server.Server|FetchFileData
+2023-10-02 12:54:02.7742|INFO|server.Server|{"code":1,"message":"success","data":["app.Plane,123,200,Deee,USA,True,","app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:54:17.3278|INFO|server.Server|DeleteLines System.String[] ["0"]
+2023-10-02 12:54:17.3538|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-02 12:54:19.9673|INFO|server.Server|FetchFileData
+2023-10-02 12:54:19.9673|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-10 19:04:02.8720|INFO|server.Server|FetchFileData
+2023-10-10 19:04:04.9375|INFO|server.Server|{"code":-2147467259,"message":"SQLite Error 1: \u0027no such table: Planes\u0027.","data":null}
+2023-10-10 19:05:56.4734|INFO|server.Server|FetchFileData
+2023-10-10 19:05:57.2640|INFO|server.Server|{"code":-2147467259,"message":"SQLite Error 1: \u0027no such table: Planes\u0027.","data":null}
+2023-10-10 19:06:17.6422|INFO|server.Server|FetchFileData
+2023-10-10 19:06:17.6772|INFO|server.Server|{"code":-2147467259,"message":"SQLite Error 1: \u0027no such table: Planes\u0027.","data":null}
+2023-10-10 19:06:27.9561|INFO|server.Server|FetchFileData
+2023-10-10 19:06:28.8418|INFO|server.Server|{"code":1,"message":"success","data":["[]"]}
+2023-10-10 19:09:56.1083|INFO|server.Server|FetchFileData
+2023-10-10 19:09:57.5855|INFO|server.Server|{"code":-2147467259,"message":"SQLite Error 1: \u0027no such table: Planes\u0027.","data":null}
+2023-10-10 19:17:34.2608|INFO|server.Server|FetchFileData
+2023-10-10 19:17:35.0907|INFO|server.Server|{"code":-2147467259,"message":"SQLite Error 1: \u0027no such table: Planes\u0027.","data":null}
+2023-10-10 19:19:11.1449|INFO|server.Server|FetchFileData
+2023-10-10 19:19:11.9434|INFO|server.Server|{"code":1,"message":"success","data":["[]"]}
+2023-10-10 19:43:34.4902|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1999,"max_speed":100,"name":"Polo","company":"Folkswagen","was_in_accident":false}]
+2023-10-10 19:43:34.8839|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-10 20:01:31.5707|INFO|server.Server|FetchFileData
+2023-10-10 20:01:32.3823|INFO|server.Server|{"code":1,"message":"success","data":["[]"]}
+2023-10-10 20:02:00.2809|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1999,"max_speed":100,"name":"Polo","company":"Folkswagen","was_in_accident":false}]
+2023-10-10 20:02:00.3876|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:03:23.3434|INFO|server.Server|FetchFileData
+2023-10-10 20:03:24.1636|INFO|server.Server|{"code":1,"message":"success","data":["[]"]}
+2023-10-10 20:04:41.2417|INFO|server.Server|FetchFileData
+2023-10-10 20:04:42.2259|INFO|server.Server|{"code":1,"message":"success","data":["[]"]}
+2023-10-10 20:05:09.7963|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1999,"max_speed":100,"name":"Polo","company":"Folkswagen","was_in_accident":false}]
+2023-10-10 20:05:09.9011|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:06:23.2341|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1,"max_speed":1,"name":"1","company":"true","was_in_accident":true}]
+2023-10-10 20:06:23.5046|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:07:42.5985|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1,"max_speed":1,"name":"1","company":"1","was_in_accident":true}]
+2023-10-10 20:07:42.8631|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:19:53.5917|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1,"max_speed":11,"name":"1","company":"1","was_in_accident":true}]
+2023-10-10 20:19:54.3184|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:20:37.4003|INFO|server.Server|WriteLines app.Car[] [{"CarId":1,"prod_year":1,"max_speed":1,"name":"1","company":"1","was_in_accident":true}]
+2023-10-10 20:20:38.2638|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:20:42.6031|INFO|server.Server|FetchFileData
+2023-10-10 20:20:42.8391|INFO|server.Server|{"code":1,"message":"success","data":["[{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}]"]}
+2023-10-10 20:21:40.4835|INFO|server.Server|WriteLines app.Plane[] [{"PlaneId":2,"wings_width":20,"speed":300,"name":"Airbus320","prod_country":"EU","needs_repair":false}]
+2023-10-10 20:21:40.5420|INFO|server.Server|{"code":1,"message":"success","data":["kinda success"]}
+2023-10-10 20:21:42.4003|INFO|server.Server|FetchFileData
+2023-10-10 20:21:42.4003|INFO|server.Server|{"code":1,"message":"success","data":["[{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true},{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}]"]}
+2023-10-10 20:23:46.4229|INFO|server.Server|FetchFileData
+2023-10-10 20:23:46.4229|INFO|server.Server|{"code":1,"message":"success","data":["[{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true},{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}]"]}
+2023-10-10 20:26:51.6798|INFO|server.Server|FetchFileData
+2023-10-10 20:26:52.5676|INFO|server.Server|{"code":1,"message":"success","data":["app.Car\napp.Plane\n"]}
+2023-10-10 20:26:59.8180|INFO|server.Server|FetchFileData
+2023-10-10 20:26:59.8532|INFO|server.Server|{"code":1,"message":"success","data":["app.Car\napp.Plane\n"]}
+2023-10-10 20:27:54.1282|INFO|server.Server|FetchFileData
+2023-10-10 20:27:54.9985|INFO|server.Server|{"code":1,"message":"success","data":["app.Car\napp.Plane\n"]}
+2023-10-10 20:29:53.3567|INFO|server.Server|FetchFileData
+2023-10-10 20:29:54.2298|INFO|server.Server|{"code":1,"message":"success","data":["app.Car\napp.Plane\n"]}
+2023-10-10 20:33:39.7027|INFO|server.Server|FetchFileData
+2023-10-10 20:33:40.5682|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}\n{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}\n"]}
+2023-10-10 20:34:23.8965|INFO|server.Server|FetchFileData
+2023-10-10 20:34:24.7633|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}\n {\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}\n "]}
+2023-10-10 20:37:22.4331|INFO|server.Server|FetchFileData
+2023-10-10 20:37:23.3005|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:38:34.5724|INFO|server.Server|WriteLines app.Plane[] [{"PlaneId":2,"wings_width":2,"speed":2,"name":"2","prod_country":"2","needs_repair":true},{"PlaneId":3,"wings_width":3,"speed":3,"name":"3","prod_country":"3","needs_repair":true}]
+2023-10-10 20:38:34.8020|INFO|server.Server|{"code":-2146233088,"message":"An error occurred while saving the entity changes. See the inner exception for details.","data":null}
+2023-10-10 20:38:59.9071|INFO|server.Server|FetchFileData
+2023-10-10 20:38:59.9795|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:39:07.2680|INFO|server.Server|FetchFileData
+2023-10-10 20:39:07.2773|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:40:02.4743|INFO|server.Server|WriteLines app.Car[] [{"PlaneId":1,"wings_width":1,"speed":2,"name":"3","prod_country":"4","needs_repair":true},{"CarId":2,"prod_year":1,"max_speed":2,"name":"3","company":"4","was_in_accident":false}]
+2023-10-10 20:40:02.5079|INFO|server.Server|{"code":-2146233088,"message":"An error occurred while saving the entity changes. See the inner exception for details.","data":null}
+2023-10-10 20:40:10.8567|INFO|server.Server|FetchFileData
+2023-10-10 20:40:10.8567|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:40:17.7335|INFO|server.Server|FetchFileData
+2023-10-10 20:40:17.7335|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:41:13.4447|INFO|server.Server|WriteLines app.Plane[] [{"PlaneId":1,"wings_width":1,"speed":1,"name":"1","prod_country":"1","needs_repair":true}]
+2023-10-10 20:41:13.4674|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-10 20:41:52.0973|INFO|server.Server|FetchFileData
+2023-10-10 20:41:52.9530|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:41:53.5518|INFO|server.Server|FetchFileData
+2023-10-10 20:41:53.5866|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:42:38.8212|INFO|server.Server|WriteLines app.Plane[] [{"CarId":2,"prod_year":2,"max_speed":2,"name":"2","company":"2","was_in_accident":true},{"PlaneId":3,"wings_width":3,"speed":3,"name":"3","prod_country":"3","needs_repair":true}]
+2023-10-10 20:42:39.0688|INFO|server.Server|{"code":-2146233088,"message":"An error occurred while saving the entity changes. See the inner exception for details.","data":null}
+2023-10-10 20:43:21.0385|INFO|server.Server|WriteLines app.Plane[] [{"CarId":2,"prod_year":2,"max_speed":2,"name":"2","company":"2","was_in_accident":true},{"PlaneId":3,"wings_width":3,"speed":3,"name":"3","prod_country":"3","needs_repair":true}]
+2023-10-10 20:43:21.0459|INFO|server.Server|{"code":-2146233088,"message":"An error occurred while saving the entity changes. See the inner exception for details.","data":null}
+2023-10-10 20:47:10.0526|INFO|server.Server|WriteLines app.Plane[] [{"CarId":2,"prod_year":2,"max_speed":2,"name":"2","company":"2","was_in_accident":true},{"PlaneId":3,"wings_width":3,"speed":3,"name":"3","prod_country":"3","needs_repair":true}]
+2023-10-10 20:47:10.7985|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-10 20:47:16.9183|INFO|server.Server|FetchFileData
+2023-10-10 20:47:17.2218|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:48:02.7561|INFO|server.Server|FetchFileData
+2023-10-10 20:48:03.6019|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:48:04.0766|INFO|server.Server|FetchFileData
+2023-10-10 20:48:04.1133|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}"]}
+2023-10-10 20:48:30.3924|INFO|server.Server|WriteLines app.Plane[] [{"CarId":2,"prod_year":2,"max_speed":2,"name":"2","company":"2","was_in_accident":true},{"PlaneId":3,"wings_width":3,"speed":3,"name":"3","prod_country":"3","needs_repair":true}]
+2023-10-10 20:48:30.6294|INFO|server.Server|{"code":-2146233088,"message":"An error occurred while saving the entity changes. See the inner exception for details.","data":null}
+2023-10-10 20:55:13.6722|INFO|server.Server|WriteLines app.Plane[] [{"PlaneId":3,"wings_width":3,"speed":3,"name":"3","prod_country":"3","needs_repair":true},{"PlaneId":4,"wings_width":4,"speed":4,"name":"4","prod_country":"4","needs_repair":true}]
+2023-10-10 20:55:13.6990|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-10 20:55:30.2421|INFO|server.Server|FetchFileData
+2023-10-10 20:55:30.2469|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}","{\u0022PlaneId\u0022:3,\u0022wings_width\u0022:3,\u0022speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022prod_country\u0022:\u00223\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:4,\u0022wings_width\u0022:4,\u0022speed\u0022:4,\u0022name\u0022:\u00224\u0022,\u0022prod_country\u0022:\u00224\u0022,\u0022needs_repair\u0022:true}"]}
+2023-10-10 20:56:12.9169|INFO|server.Server|WriteLines app.Car[] [{"CarId":3,"prod_year":3,"max_speed":3,"name":"3","company":"3","was_in_accident":true},{"CarId":3,"prod_year":3,"max_speed":3,"name":"3","company":"3","was_in_accident":true}]
+2023-10-10 20:56:12.9355|INFO|server.Server|{"code":-2146233079,"message":"The instance of entity type \u0027Car\u0027 cannot be tracked because another instance with the same key value for {\u0027CarId\u0027} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using \u0027DbContextOptionsBuilder.EnableSensitiveDataLogging\u0027 to see the conflicting key values.","data":null}
+2023-10-10 20:56:30.3955|INFO|server.Server|FetchFileData
+2023-10-10 20:56:30.3999|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}","{\u0022PlaneId\u0022:3,\u0022wings_width\u0022:3,\u0022speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022prod_country\u0022:\u00223\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:4,\u0022wings_width\u0022:4,\u0022speed\u0022:4,\u0022name\u0022:\u00224\u0022,\u0022prod_country\u0022:\u00224\u0022,\u0022needs_repair\u0022:true}"]}
+2023-10-10 20:56:59.0713|INFO|server.Server|WriteLines app.Car[] [{"CarId":2,"prod_year":2,"max_speed":2,"name":"2","company":"2","was_in_accident":true},{"CarId":3,"prod_year":3,"max_speed":3,"name":"3","company":"3","was_in_accident":true}]
+2023-10-10 20:56:59.0946|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-10 20:57:01.6203|INFO|server.Server|FetchFileData
+2023-10-10 20:57:01.6203|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022CarId\u0022:2,\u0022prod_year\u0022:2,\u0022max_speed\u0022:2,\u0022name\u0022:\u00222\u0022,\u0022company\u0022:\u00222\u0022,\u0022was_in_accident\u0022:true}","{\u0022CarId\u0022:3,\u0022prod_year\u0022:3,\u0022max_speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022company\u0022:\u00223\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}","{\u0022PlaneId\u0022:3,\u0022wings_width\u0022:3,\u0022speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022prod_country\u0022:\u00223\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:4,\u0022wings_width\u0022:4,\u0022speed\u0022:4,\u0022name\u0022:\u00224\u0022,\u0022prod_country\u0022:\u00224\u0022,\u0022needs_repair\u0022:true}"]}
+2023-10-10 20:58:13.4538|INFO|server.Server|FetchFileData
+2023-10-10 20:58:13.4626|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022CarId\u0022:2,\u0022prod_year\u0022:2,\u0022max_speed\u0022:2,\u0022name\u0022:\u00222\u0022,\u0022company\u0022:\u00222\u0022,\u0022was_in_accident\u0022:true}","{\u0022CarId\u0022:3,\u0022prod_year\u0022:3,\u0022max_speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022company\u0022:\u00223\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}","{\u0022PlaneId\u0022:3,\u0022wings_width\u0022:3,\u0022speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022prod_country\u0022:\u00223\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:4,\u0022wings_width\u0022:4,\u0022speed\u0022:4,\u0022name\u0022:\u00224\u0022,\u0022prod_country\u0022:\u00224\u0022,\u0022needs_repair\u0022:true}"]}
+2023-10-10 21:01:05.8309|INFO|server.Server|DeleteLines System.String[] ["1"]
+2023-10-10 21:01:05.8309|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-10 21:01:12.5258|INFO|server.Server|FetchFileData
+2023-10-10 21:01:12.5258|INFO|server.Server|{"code":1,"message":"success","data":["{\u0022CarId\u0022:1,\u0022prod_year\u0022:1,\u0022max_speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022company\u0022:\u00221\u0022,\u0022was_in_accident\u0022:true}","{\u0022CarId\u0022:2,\u0022prod_year\u0022:2,\u0022max_speed\u0022:2,\u0022name\u0022:\u00222\u0022,\u0022company\u0022:\u00222\u0022,\u0022was_in_accident\u0022:true}","{\u0022CarId\u0022:3,\u0022prod_year\u0022:3,\u0022max_speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022company\u0022:\u00223\u0022,\u0022was_in_accident\u0022:true}","{\u0022PlaneId\u0022:1,\u0022wings_width\u0022:1,\u0022speed\u0022:1,\u0022name\u0022:\u00221\u0022,\u0022prod_country\u0022:\u00221\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:2,\u0022wings_width\u0022:20,\u0022speed\u0022:300,\u0022name\u0022:\u0022Airbus320\u0022,\u0022prod_country\u0022:\u0022EU\u0022,\u0022needs_repair\u0022:false}","{\u0022PlaneId\u0022:3,\u0022wings_width\u0022:3,\u0022speed\u0022:3,\u0022name\u0022:\u00223\u0022,\u0022prod_country\u0022:\u00223\u0022,\u0022needs_repair\u0022:true}","{\u0022PlaneId\u0022:4,\u0022wings_width\u0022:4,\u0022speed\u0022:4,\u0022name\u0022:\u00224\u0022,\u0022prod_country\u0022:\u00224\u0022,\u0022needs_repair\u0022:true}"]}

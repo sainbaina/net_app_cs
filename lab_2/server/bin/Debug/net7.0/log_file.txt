@@ -8,3 +8,27 @@
 2023-10-01 13:47:07.9315|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
 2023-10-01 13:47:09.4461|INFO|server.Server|FetchFileData
 2023-10-01 13:47:09.4475|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:47:54.6026|INFO|server.Server|FetchFileData
+2023-10-02 12:47:54.6968|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:47:58.0445|INFO|server.Server|GetFileRow System.String "1"
+2023-10-02 12:47:58.0997|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1985,90,Byick,MotorMotors,True,"]}
+2023-10-02 12:48:01.4521|INFO|server.Server|GetFileRow System.String ""
+2023-10-02 12:48:01.4521|INFO|server.Server|{"code":-2146233033,"message":"The input string \u0027\u0027 was not in a correct format.","data":null}
+2023-10-02 12:48:06.1664|INFO|server.Server|DeleteLines System.String[] ["9"]
+2023-10-02 12:48:06.1794|INFO|server.Server|{"code":-1,"message":"CUSTOM_ERR: wrong indexes","data":null}
+2023-10-02 12:48:32.3296|INFO|server.Server|WriteLines app.Car[] [{"prod_year":1,"max_speed":1,"name":"1","company":"1","was_in_accident":true}]
+2023-10-02 12:48:32.3986|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-02 12:50:33.2851|INFO|server.Server|FetchFileData
+2023-10-02 12:50:33.3863|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:50:49.8600|INFO|server.Server|GetFileRow System.String "9"
+2023-10-02 12:50:49.9188|INFO|server.Server|{"code":-2146233086,"message":"Index was out of range. Must be non-negative and less than the size of the collection. (Parameter \u0027index\u0027)","data":null}
+2023-10-02 12:51:15.8909|INFO|server.Server|GetFileRow System.String "1"
+2023-10-02 12:51:15.8909|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1985,90,Byick,MotorMotors,True,"]}
+2023-10-02 12:53:37.9962|INFO|server.Server|WriteLines app.Plane[] [{"wings_width":123,"speed":200,"name":"Deee","prod_country":"USA","needs_repair":true}]
+2023-10-02 12:53:38.0667|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-02 12:54:02.7486|INFO|server.Server|FetchFileData
+2023-10-02 12:54:02.7742|INFO|server.Server|{"code":1,"message":"success","data":["app.Plane,123,200,Deee,USA,True,","app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}
+2023-10-02 12:54:17.3278|INFO|server.Server|DeleteLines System.String[] ["0"]
+2023-10-02 12:54:17.3538|INFO|server.Server|{"code":1,"message":"success","data":["success"]}
+2023-10-02 12:54:19.9673|INFO|server.Server|FetchFileData
+2023-10-02 12:54:19.9673|INFO|server.Server|{"code":1,"message":"success","data":["app.Car,1999,120,Raf 4,Touota,False,","app.Car,1985,90,Byick,MotorMotors,True,","app.Plane,4,7,Thunderbird - 100,GB,True,","app.Plane,12,23,Airbus A-320,EU,True,","app.Car,2002,100,Mersedes,Mersedes,False,"]}

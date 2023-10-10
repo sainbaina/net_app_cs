@@ -1,0 +1,102 @@
+
+2023-10-01 13:46:28.0764|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:46:53.5781|WARN|client.Program|--- status: -2146233033 message: The input string '' was not in a correct format. data: 
+2023-10-01 13:46:57.0817|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:46:59.2943|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:46:59.8902|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:47:00.2259|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:47:07.9459|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-01 13:47:09.4491|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:47:54.7842|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:47:58.1003|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:48:01.4591|WARN|client.Program|--- status: -2146233033 message: The input string '' was not in a correct format. data: 
+2023-10-02 12:48:06.1970|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:09.4613|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:13.2049|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:22.1083|ERROR|client.Program|String 'tr4e' was not recognized as a valid Boolean.
+2023-10-02 12:48:22.1083|WARN|client.Program|--- status: -1 message: CUSTOM_ERR: wrong indexes data: 
+2023-10-02 12:48:32.3992|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:50:33.3876|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:50:49.9195|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-02 12:51:15.8928|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:24.6672|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-02 12:51:24.6672|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:39.0734|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-02 12:51:39.0734|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:43.3525|ERROR|client.Program|Arithmetic operation resulted in an overflow.
+2023-10-02 12:51:43.3525|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:51:51.6704|ERROR|client.Program|Arithmetic operation resulted in an overflow.
+2023-10-02 12:51:51.6704|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:52:34.6388|ERROR|client.Program|Arithmetic operation resulted in an overflow.
+2023-10-02 12:52:34.6388|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:53:38.0673|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:02.7753|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:17.3548|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:19.9709|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-02 12:54:45.6469|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 19:04:04.9984|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Planes'. data: 
+2023-10-10 19:05:57.2661|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Planes'. data: 
+2023-10-10 19:06:16.0778|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Planes'. data: 
+2023-10-10 19:06:17.6780|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Planes'. data: 
+2023-10-10 19:06:28.8437|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 19:09:57.5889|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Planes'. data: 
+2023-10-10 19:17:35.0922|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Planes'. data: 
+2023-10-10 19:19:11.9454|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 19:43:34.9005|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:01:32.3838|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:02:00.3881|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:03:24.1650|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:04:42.2273|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:05:09.9019|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:06:07.1292|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:06:23.5062|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:07:42.8644|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:19:41.7480|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:19:54.3196|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:20:38.2652|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:20:42.8400|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:21:40.5427|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:21:42.4089|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:23:46.4283|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:26:52.5688|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:26:59.8538|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:27:54.9995|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:29:54.2311|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:33:40.5696|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:34:24.7646|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:37:23.3017|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:37:50.7371|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-10 20:37:50.7371|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:38:34.8032|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-10 20:38:59.9802|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:39:06.2744|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-10 20:39:06.2744|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:39:07.2780|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:39:28.6091|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-10 20:39:28.6091|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:40:02.5088|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-10 20:40:10.8631|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:40:17.7371|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:41:13.4679|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:41:51.1095|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-10 20:41:51.1095|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:41:52.9542|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:41:53.5870|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:42:39.0700|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-10 20:43:21.0480|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-10 20:47:10.8000|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:47:17.2223|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:48:01.7211|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-10 20:48:01.7211|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:48:03.6031|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:48:04.1138|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:48:30.6305|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-10 20:55:13.6998|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:55:30.2488|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:56:12.9368|WARN|client.Program|--- status: -2146233079 message: The instance of entity type 'Car' cannot be tracked because another instance with the same key value for {'CarId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. data: 
+2023-10-10 20:56:30.4025|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:56:59.0954|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:57:01.6278|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 20:58:13.5253|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 21:01:05.8658|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 21:01:12.5348|INFO|client.Program|--- status: 1 message: success data: System.String[]

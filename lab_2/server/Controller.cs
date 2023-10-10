@@ -1,23 +1,15 @@
+using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using app;
+
+using var db = new lab_3_database_Context();
+
+// Console.WriteLine($"Database path: {db.DbPath}.");
+
 namespace app
 {
-    public class Car
-    {
-        public int prod_year{get;set;}
-        public int max_speed{get;set;}
-        public string name{get;set;}
-        public string company{get;set;}
-        public bool was_in_accident{get;set;}
-    }
-
-    public class Plane
-    {
-        public int wings_width{get;set;}
-        public int speed{get;set;}
-        public string name{get;set;}
-        public string prod_country{get;set;}
-        public bool needs_repair{get;set;}
-    }
-
     class Status
     {
         public int code {get;set;}
@@ -59,6 +51,7 @@ namespace app
     {
         string path = Directory.GetCurrentDirectory() + "\\text.csv";
 
+        private readonly lab_3_database_Context _context;
 
         public Status FetchFileData()
         {

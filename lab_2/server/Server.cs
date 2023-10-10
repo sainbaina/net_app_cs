@@ -95,6 +95,7 @@ namespace server
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("entered");
 
             Server server = new Server(8001);
             server.StartListenAsync();

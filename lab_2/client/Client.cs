@@ -8,7 +8,6 @@ using System.Text.Json;
 using app;
 using NLog.Config;
 using NLog;
-using NLog.Targets;
 
 
 namespace client
