@@ -1,0 +1,17 @@
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\bin\Debug\net7.0\HTML.exe
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\bin\Debug\net7.0\HTML.deps.json
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\bin\Debug\net7.0\HTML.runtimeconfig.json
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\bin\Debug\net7.0\HTML.dll
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\bin\Debug\net7.0\HTML.pdb
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\bin\Debug\net7.0\HtmlAgilityPack.dll
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.csproj.AssemblyReference.cache
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.AssemblyInfoInputs.cache
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.AssemblyInfo.cs
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.csproj.CoreCompileInputs.cache
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.csproj.CopyComplete
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.dll
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\refint\HTML.dll
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.pdb
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\HTML.genruntimeconfig.cache
+C:\Users\zharn\Desktop\subjects\3 year\IS Architecture\net_app_cs\lab_6\HTML\obj\Debug\net7.0\ref\HTML.dll

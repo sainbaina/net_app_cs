@@ -100,3 +100,335 @@
 2023-10-10 20:58:13.5253|INFO|client.Program|--- status: 1 message: success data: System.String[]
 2023-10-10 21:01:05.8658|INFO|client.Program|--- status: 1 message: success data: System.String[]
 2023-10-10 21:01:12.5348|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 23:37:33.0837|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-10 23:37:43.4048|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-10 23:41:56.0026|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 23:42:57.5378|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-10 23:58:44.0925|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:00:07.7232|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:00:13.2705|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:01:04.2795|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:01:31.0408|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:02:41.3794|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:02:57.7963|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:03:54.7384|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:04:24.7266|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:04:54.1549|WARN|client.Program|--- status: -2146233033 message: The input string '"1"' was not in a correct format. data: 
+2023-10-11 00:09:33.1312|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:17:12.5524|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:18:32.4466|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:19:13.1820|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:21:36.1403|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:22:38.0452|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:22:57.5026|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 00:22:57.5026|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:23:01.9708|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such table: Car'. data: 
+2023-10-11 00:24:12.9014|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:24:59.1566|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:28:03.9926|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:29:18.5827|WARN|client.Program|--- status: -2146233079 message: The required column 'CarId' was not present in the results of a 'FromSql' operation. data: 
+2023-10-11 00:30:08.8872|WARN|client.Program|--- status: -2146233079 message: The required column 'CarId' was not present in the results of a 'FromSql' operation. data: 
+2023-10-11 00:30:37.1022|WARN|client.Program|--- status: -2146233079 message: The required column 'CarId' was not present in the results of a 'FromSql' operation. data: 
+2023-10-11 00:30:46.3361|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 00:31:02.2952|WARN|client.Program|--- status: -2146233079 message: The required column 'CarId' was not present in the results of a 'FromSql' operation. data: 
+2023-10-11 00:31:25.3269|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:20:39.2407|WARN|client.Program|--- status: -2146233079 message: The element type 'System.Array' used in 'SqlQuery' method is not natively supported by your database provider. Either use a supported element type, or use ModelConfigurationBuilder.DefaultTypeMapping to define a mapping for your type. data: 
+2023-10-11 11:21:07.3207|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:21:27.1303|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:22:22.9602|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:23:08.0608|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 11:23:08.0608|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:23:12.4805|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:26:35.1373|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:27:06.6455|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 11:27:06.6455|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:27:10.0145|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:30:32.7091|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:42:54.1039|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 11:49:29.5547|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-11 11:49:33.4510|WARN|client.Program|--- status: -2147475171 message: Ambiguous match found. data: 
+2023-10-11 11:51:03.8736|WARN|client.Program|--- status: -2147475171 message: Ambiguous match found. data: 
+2023-10-11 11:57:51.4975|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 11:57:51.4975|WARN|client.Program|--- status: -2147475171 message: Ambiguous match found. data: 
+2023-10-11 11:57:54.9462|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-11 11:58:19.8480|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-11 12:01:53.2847|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-11 12:02:33.9424|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-11 12:06:05.4435|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-11 12:09:03.7528|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:09:26.4591|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:17:50.5466|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 12:17:50.5466|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:17:59.2782|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:18:22.0785|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:21:13.2886|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:21:19.6946|ERROR|client.Program|Index was outside the bounds of the array.
+2023-10-11 12:21:19.6946|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:21:31.8053|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-11 12:21:40.5064|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-11 12:22:54.6042|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:23:00.8650|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:23:06.5780|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 12:23:06.5780|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:23:10.0861|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 12:23:10.0861|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:24:35.4600|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 12:25:05.7395|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 12:25:46.6552|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 12:25:51.9247|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:25:57.2905|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 12:26:14.4578|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:08:34.5513|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:08:45.5253|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:08:50.2223|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:08:52.9302|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:08:59.3941|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-11 23:09:06.4398|ERROR|client.Program|Index was outside the bounds of the array.
+2023-10-11 23:09:19.4811|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:09:21.2950|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:09:24.6618|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:09:28.3068|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:09:28.8287|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:09:29.9638|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:09:37.3077|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:09:52.8379|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:10:59.8351|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:11:10.9247|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:11:12.4372|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:45:14.2427|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-11 23:57:36.3642|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-11 23:57:49.0774|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 00:03:44.1495|WARN|client.Program|--- status: -2146233033 message: Input string was not in a correct format. data: 
+2023-10-12 00:04:37.0035|WARN|client.Program|--- status: -2146233033 message: Input string was not in a correct format. data: 
+2023-10-12 00:05:18.1578|WARN|client.Program|--- status: -1 message: wrong data. Could not get any value data: 
+2023-10-12 00:06:03.2936|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:07:03.2989|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:07:05.4218|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:07:05.9603|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:07:06.3686|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:07:09.1829|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:07:11.6022|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:07:13.6249|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 00:08:11.7800|WARN|client.Program|--- status: -1 message: wrong data. Could not get any value data: 
+2023-10-12 00:08:15.6030|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:08:26.1222|WARN|client.Program|--- status: -1 message: wrong data. Could not get any value data: 
+2023-10-12 00:08:34.6420|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:08:56.2802|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:09:09.6549|WARN|client.Program|--- status: -1 message: wrong data. Could not get any value data: 
+2023-10-12 00:09:12.7527|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 00:09:20.0442|WARN|client.Program|--- status: -1 message: wrong data. Could not get any value data: 
+2023-10-12 00:09:23.9343|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 00:09:34.8843|WARN|client.Program|--- status: -1 message: wrong data. Could not get any value data: 
+2023-10-12 00:09:36.3324|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:09:44.8516|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-12 00:09:48.3058|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:09:56.5411|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:10:19.8884|ERROR|client.Program|The input string 'Polo' was not in a correct format.
+2023-10-12 00:10:56.2028|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 00:10:59.5368|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:28:30.2969|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:29:00.4628|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-12 11:29:12.1571|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 11:29:12.9819|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:29:28.1894|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:29:30.5591|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:29:50.7144|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'incomplete input'. data: 
+2023-10-12 11:29:57.8071|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:30:28.7990|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:30:34.3357|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:30:36.7874|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:30:44.4987|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:32:23.3753|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:32:26.2669|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:32:41.5746|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:32:52.1717|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 11:32:53.7511|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:33:14.2703|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:33:16.2783|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:33:33.5437|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:33:35.3551|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:33:52.1707|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:39:35.8912|WARN|client.Program|--- status: -2146233079 message: The entity type 'JObject' was not found. Ensure that the entity type has been added to the model. data: 
+2023-10-12 11:41:38.3954|WARN|client.Program|--- status: -2146233079 message: The entity type 'Boat' was not found. Ensure that the entity type has been added to the model. data: 
+2023-10-12 11:47:20.2757|WARN|client.Program|--- status: -2146233079 message: The entity type 'Boat' was not found. Ensure that the entity type has been added to the model. data: 
+2023-10-12 11:51:49.1520|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:51:58.2675|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 11:51:59.1489|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:52:52.2075|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 11:52:53.9591|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:28:45.1765|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-12 14:31:44.4816|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:31:53.0436|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:32:04.2201|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-12 14:32:17.5874|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-12 14:32:33.9947|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-12 14:32:43.4737|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:33:21.4319|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-12 14:33:26.1529|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:34:39.2118|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:34:43.2937|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:34:45.4802|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:34:47.4090|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:34:52.4926|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:36.4804|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:37.2169|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:37.5753|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:37.9008|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:38.2373|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:38.7827|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:39.6561|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:40.4210|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:41.6238|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:42.5566|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:48.7140|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:49.2621|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:49.6333|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:35:49.9805|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:53:47.2275|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:53:57.3901|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:54:28.1528|WARN|client.Program|--- status: -2146233086 message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') data: 
+2023-10-12 14:55:09.3812|WARN|client.Program|--- status: -2146233088 message: An error occurred while saving the entity changes. See the inner exception for details. data: 
+2023-10-12 14:55:21.8838|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:55:39.2619|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:55:43.6419|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:55:53.4940|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:55:55.2141|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 14:56:07.6027|WARN|client.Program|--- status: -2147467259 message: SQLite Error 1: 'no such column: a'. data: 
+2023-10-12 14:56:16.8440|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:05:41.4994|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:11:37.8177|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:11:46.0714|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:12:02.4822|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:12:03.8268|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:12:16.3179|WARN|client.Program|--- status: -2147024809 message: The key value at position 0 of the call to 'DbSet<Car>.Find' was of type 'string', which does not match the property type of 'int'. data: 
+2023-10-12 15:12:27.3320|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:12:34.5613|WARN|client.Program|--- status: -2147024809 message: The key value at position 0 of the call to 'DbSet<Car>.Find' was of type 'string', which does not match the property type of 'int'. data: 
+2023-10-12 15:14:19.6373|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:14:21.3434|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:14:27.8218|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:14:34.1221|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:14:35.4980|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:15:21.4190|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:21:53.5942|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:21:54.7883|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:27:34.2318|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:27:50.3599|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:27:52.3830|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:28:01.8265|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:28:03.2894|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:28:16.8894|ERROR|client.Program|Index was outside the bounds of the array.
+2023-10-12 15:28:17.0557|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:28:22.4299|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:28:24.1643|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:29:33.0292|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:29:34.7214|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:29:37.7043|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:29:43.4812|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:29:44.6896|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:29:56.1098|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:30:04.7103|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:30:06.1408|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:30:53.6086|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:30:54.3380|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:31:00.8313|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:31:02.3137|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:32:19.4540|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:32:21.0891|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:27.8245|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:30.3085|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:33.7129|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:34.2576|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:38.5049|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:39.5674|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:40.5265|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:40.9262|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:41.2634|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:41.5493|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:41.8274|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:42.1144|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:42.3644|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:42.5963|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:42.8211|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:43.0558|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:44.0979|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:44.8717|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:45.6522|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:45.7141|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:45.7805|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:45.8463|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:45.9066|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:45.9721|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.0393|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.1047|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.1710|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.2387|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.2982|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.3693|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.4247|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.5082|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.5568|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.6232|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.6876|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.7538|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.8162|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.8836|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:46.9514|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.0099|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.0740|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.1406|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.2048|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.2701|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.3372|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.4387|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.4663|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.5327|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.5962|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.6610|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:47.7235|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:49.1037|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:50.0398|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:50.4835|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:34:51.0968|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:48:38.5163|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:48:47.1798|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-12 15:48:48.3987|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-16 17:34:43.9450|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-16 17:36:04.9428|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-16 17:51:14.5965|ERROR|client.Program|The input string '' was not in a correct format.
+2023-10-16 17:51:15.1839|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-16 17:51:15.7525|INFO|client.Program|--- status: 0 message:  data: 
+2023-10-26 21:04:42.6893|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-10-26 21:04:44.8257|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 21:56:58.1261|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 21:57:10.2219|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 21:57:12.0364|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 21:57:19.8358|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:03:11.5803|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:03:14.3033|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:03:22.8808|ERROR|client.Program|The input string '' was not in a correct format.
+2023-11-16 22:03:47.6823|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:03:49.1856|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:35:38.7421|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:36:16.4415|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:37:12.8854|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:38:13.7021|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:43:30.9398|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:43:33.7931|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:43:53.3027|ERROR|client.Program|The input string '' was not in a correct format.
+2023-11-16 22:44:21.3190|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:44:23.0186|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 22:54:54.1410|INFO|client.Program|--- status: 0 message:  data: 
+2023-11-16 22:55:04.2438|ERROR|client.Program|The input string '' was not in a correct format.
+2023-11-16 22:55:04.3888|INFO|client.Program|--- status: 0 message:  data: 
+2023-11-16 23:04:05.9230|INFO|client.Program|--- status: 0 message:  data: 
+2023-11-16 23:04:14.1126|ERROR|client.Program|The input string '' was not in a correct format.
+2023-11-16 23:05:18.8859|ERROR|client.Program|Invalid cast from 'System.String' to 'System.Collections.Generic.ICollection`1[[app.Plane, client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-16 23:06:23.2603|ERROR|client.Program|Invalid cast from 'System.String' to 'System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-16 23:13:19.4100|ERROR|client.Program|Invalid cast from 'System.String' to 'System.Collections.Generic.ICollection`1[[app.Plane, client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-16 23:15:18.1721|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 23:15:37.4040|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 23:15:44.8141|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 23:15:48.6101|ERROR|client.Program|The input string '' was not in a correct format.
+2023-11-16 23:15:50.3691|ERROR|client.Program|The input string '' was not in a correct format.
+2023-11-16 23:15:56.1290|INFO|client.Program|--- status: 1 message: success data: System.String[]
+2023-11-16 23:16:09.4540|ERROR|client.Program|The input string '' was not in a correct format.

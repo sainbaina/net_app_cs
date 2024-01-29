@@ -1,7 +1,8 @@
 enum Types
 {
     Plane,
-    Car
+    Car,
+    RepairCompany
 }
 
 namespace app
@@ -141,7 +142,7 @@ namespace app
                         {
                             sw.Write(prop.GetValue(obj, null));
                             sw.Write(',');
-                        }  
+                        }
                         sw.Write('\n');
                     }
 

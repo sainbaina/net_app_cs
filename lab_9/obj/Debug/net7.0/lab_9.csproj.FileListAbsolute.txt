@@ -1,0 +1,17 @@
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.AssemblyInfoInputs.cache
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.AssemblyInfo.cs
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.csproj.CoreCompileInputs.cache
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\bin\Debug\net7.0\lab_9.exe
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\bin\Debug\net7.0\lab_9.deps.json
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\bin\Debug\net7.0\lab_9.runtimeconfig.json
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\bin\Debug\net7.0\lab_9.dll
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\bin\Debug\net7.0\lab_9.pdb
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.dll
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\refint\lab_9.dll
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.pdb
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.genruntimeconfig.cache
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\ref\lab_9.dll
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\bin\Debug\net7.0\Microsoft.Office.Interop.Word.dll
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.csproj.AssemblyReference.cache
+C:\Users\zharn\Desktop\subjects\3_year\IS Architecture\net_app_cs\lab_9\obj\Debug\net7.0\lab_9.csproj.CopyComplete

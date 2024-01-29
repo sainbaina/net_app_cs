@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using app;
 using System.Text.Json.Nodes;
+using Newtonsoft.Json;
+using System.Reflection;
+using Microsoft.Data.Sqlite;
 
 namespace app
 {
@@ -78,34 +81,46 @@ namespace app
 
         public Status GetFileRow(string[] args)
         {
-            string type_str = args[0];
-            string id_str = args[1];
             try
             {
+                string type_str = args[0];
+                string id_str = args[1];
+                string type = type_str.Split('.').Last();
+                int id = int.Parse(id_str);
+                
+                Status status;
                 using (var context = new lab_3_database_Context())
                 {
-                    int id = int.Parse(id_str);
-                    context.
-
-                    allRecords.AddRange(context.Cars.ToList());
-                    allRecords.AddRange(context.Planes.ToList());
-
-                    return new Status(System.Text.Json.JsonSerializer.Serialize(allRecords));
-                } 
-
-                // int id = int.Parse(id_str);
-                List<string> lines = new List<string>();
-
-                using (var sr = new StreamReader(path))
-                {
-                    string line;
-                    while ((line = sr.ReadLine()) != null)
+                    string res_str = "";
+                    switch(type)
                     {
-                        lines.Add(line);
+                        case "Car":
+                            var car = context.Cars.Find(id);
+                            string[] res = new string[2];
+                            res[0] = "Car";
+                            res[1] = System.Text.Json.JsonSerializer.Serialize(car);
+                            status =  new Status(res);
+                            return status; 
+                        
+                        case "Plane":
+                            var plane = context.Planes.Find(id);
+                            string[] res1 = new string[2];
+                            res1[0] = "Plane";
+                            res1[1] = System.Text.Json.JsonSerializer.Serialize(plane);
+                            status =  new Status(res1);
+                            return status;
+                        
+                        case "RepairCompany":
+                            var repairCompany = context.RepairCompanies.Find(id);
+                            string[] res2 = new string[2];
+                            res2[0] = "RepairCompany";
+                            res2[1] = System.Text.Json.JsonSerializer.Serialize(repairCompany);
+                            status =  new Status(res2);
+                            return status;
                     }
+
+                    return new Status("wrong data. Could not get any value", -1);
                 } 
-                
-                return new Status(lines[index]);
             }
             catch (Exception e)
             {
@@ -113,32 +128,54 @@ namespace app
             }
         }
 
-        public Status DeleteLines(string[] indexes_str)
+        public Status DeleteLine(string[] args)
         {
+            string type_str = args[0];
+            string id_str = args[1];
+            string type = type_str.Split('.').Last();
+
             try
             {
-                int[] indexes = new int[indexes_str.Length];
-                for (int i = 0; i < indexes_str.Length; i++)
+                using (var context = new lab_3_database_Context())
                 {
-                    indexes[i] = int.Parse(indexes_str[i]);
-                }
+                    string ent = type + 's';
+                    int id = int.Parse(id_str);
 
-                List<string> lines = File.ReadAllLines(path).ToList();
-                int len = lines.Count;
-                int delta = 0;
+                    Status status;
+                    switch(type)
+                    {
+                        case "Car":
+                            var car = context.Cars.Find(id);
+                            string[] res = new string[2];
+                            res[0] = "Car";
+                            res[1] = System.Text.Json.JsonSerializer.Serialize(car);
+                            status =  new Status(res);
+                            context.Cars.Remove(car);
+                            context.SaveChanges();
+                            return status; 
+                        
+                        case "Plane":
+                            var plane = context.Planes.Find(id);
+                            string[] res1 = new string[2];
+                            res1[0] = "Plane";
+                            res1[1] = System.Text.Json.JsonSerializer.Serialize(plane);
+                            status =  new Status(res1);
+                            context.Planes.Remove(plane);
+                            context.SaveChanges();
+                            return status;
 
-                foreach (var index in indexes)
-                {
-                    int i = index;
-                    i -= delta;
-                    if (i >= len) return new Status("CUSTOM_ERR: wrong indexes", -1);
-                    lines.RemoveAt(i);
-                    len--;
-                    delta++;
-                }
-                
-                File.WriteAllLines(path, lines);
-                return new Status("success");
+                        case "RepairCompany":
+                            var repairCompany = context.RepairCompanies.Find(id);
+                            string[] res2 = new string[2];
+                            res2[0] = "RepairCompany";
+                            res2[1] = System.Text.Json.JsonSerializer.Serialize(repairCompany);
+                            status =  new Status(res2);
+                            context.RepairCompanies.Remove(repairCompany);
+                            context.SaveChanges();
+                            return status;
+                    }
+                    return new Status("deleted");
+                } 
             }
             catch (Exception e)
             {

@@ -57,19 +57,8 @@ namespace client
                             break;
 
                         case ConsoleKey.D2:
-                            Console.WriteLine("\nИндекс: ");
-                            string index = Console.ReadLine();
-                            msg = "GetFileRow System.String " + JsonSerializer.Serialize(index);
-                            SendMessage(msg);
-                            status = ReceiveMessage();
-                            break;
-
-                        case ConsoleKey.D3:
-                            Console.WriteLine("\nКоличество удаляемых записей:");
-                            string num_s = Console.ReadLine();
-                            int num = int.Parse(num_s);
-                            string[] arr = new string[num];
                             j = 0;
+                            Console.WriteLine();
                             foreach (var item in (Types[]) Enum.GetValues(typeof(Types)))
                             {
                                 Console.WriteLine(j.ToString() + ") " + item.ToString());
@@ -78,12 +67,29 @@ namespace client
                             Console.WriteLine("Индекс:");
                             type_ind_s = Console.ReadLine();
                             type_ind = int.Parse(type_ind_s);
-                            for (int i = 0; i < num; i++)
+
+                            Console.WriteLine("\nID: ");
+                            string index = Console.ReadLine();
+
+                            msg = "GetFileRow null " + Enum.GetValues(typeof(Types)).GetValue(type_ind).ToString() + " " + index;
+                            SendMessage(msg);
+                            status = ReceiveMessage();
+                            break;
+
+                        case ConsoleKey.D3:
+                            j = 0;
+                            foreach (var item in (Types[]) Enum.GetValues(typeof(Types)))
                             {
-                                Console.WriteLine("Индекс:");
-                                arr[i] += Console.ReadLine();
+                                Console.Write('\n' + j.ToString() + ") " + item.ToString());
+                                j++;
                             }
-                            msg = "DeleteLines System.String[] " + JsonSerializer.Serialize(arr);
+                            Console.WriteLine("\nИндекс:");
+                            type_ind_s = Console.ReadLine();
+
+                            Console.WriteLine("\nID удаляемой записи:");
+                            string del_id = Console.ReadLine();
+
+                            msg = "DeleteLine null " + Enum.GetValues(typeof(Types)).GetValue(int.Parse(type_ind_s)).ToString() + " " + del_id;
                             SendMessage(msg);
                             status = ReceiveMessage();
                             break;
@@ -118,6 +124,9 @@ namespace client
                                     case 1:
                                         _obj = new Car();
                                         break;
+                                    case 2:
+                                        _obj = new RepairCompany();
+                                        break;
                                 }
 
                                 foreach (var prop in _obj.GetType().GetProperties())
@@ -143,8 +152,10 @@ namespace client
                 }
                 catch (Exception e)
                 {
+                    Console.Clear();
                     Console.WriteLine(e.Message);
                     log.Error(e.Message);
+                    continue;
                 }
 
                 Console.WriteLine("\n---\nstatus: {0}", status.code);

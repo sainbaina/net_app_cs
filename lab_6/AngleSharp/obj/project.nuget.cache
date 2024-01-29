@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "u/rqbqi+58Ly7dDjSu6Go2ODKzX/sIJVs+jIbOVmiOThWo66UDyZ1p+TeLiOGJkwrVVDMW2W09EInEwG19tvEQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_6\\AngleSharp\\lab_6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zharn\\.nuget\\packages\\anglesharp\\1.0.6\\anglesharp.1.0.6.nupkg.sha512",
+    "C:\\Users\\zharn\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
+    "C:\\Users\\zharn\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
+    "C:\\Users\\zharn\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 8.0.0 is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Package Microsoft.EntityFrameworkCore 8.0.0 supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bp4E/50Zx0Zg10CjkUXJ+d0LettgaHGFgt38mIkbfa7oTGuVLZkpcREl6aBAnLiROjWpdayx7e4vlbDNHdLeMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_6\\HTML\\HTML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zharn\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512"
+  ],
+  "logs": []
+}

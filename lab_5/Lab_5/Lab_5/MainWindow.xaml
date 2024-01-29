@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lab_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_5"
+        mc:Ignorable="d"
+        Title="Форма авторизации" Height="450" Width="696">
+    <Grid>
+        <Grid Name="MainGrid" Margin="10,10,10.333,64.667">
+
+        </Grid>
+        <Button Content="Авторизация" HorizontalAlignment="Left" VerticalAlignment="Top" Width="291" Margin="10,379,0,0" Height="32" Click="Button_Click"/>
+    </Grid>
+</Window>

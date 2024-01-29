@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "lab_6/1.0.0": {
+        "dependencies": {
+          "AngleSharp": "1.0.6",
+          "HtmlAgilityPack": "1.11.54"
+        },
+        "runtime": {
+          "lab_6.dll": {}
+        }
+      },
+      "AngleSharp/1.0.6": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/AngleSharp.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.54": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.54.0",
+            "fileVersion": "1.11.54.0"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/7.0.0": {}
+    }
+  },
+  "libraries": {
+    "lab_6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OIU4pbC6KjSzYdQZOjV4nme1RgGfCd3TdZgx1/blDUpgagYc9Es1NcyLHNp6tTyHJBp1aU4cvxr9c679bWX0Rw==",
+      "path": "anglesharp/1.0.6",
+      "hashPath": "anglesharp.1.0.6.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bgB79N4urc4D7hrD4R+Qk6CjPiYOfs6vfXNsmw3nCcfQEQvBQGjfAcl5k/tB1ZP1hA0d7xXs0jK8xAXV36IVUg==",
+      "path": "htmlagilitypack/1.11.54",
+      "hashPath": "htmlagilitypack.1.11.54.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "hashPath": "system.text.encoding.codepages.7.0.0.nupkg.sha512"
+    }
+  }
+}

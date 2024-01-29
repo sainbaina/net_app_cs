@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj": {}
+    "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj": {
+    "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj",
+        "projectPath": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj",
         "packagesPath": "C:\\Users\\zharn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_3\\server\\obj\\",
+        "outputPath": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\IS Architecture\\net_app_cs\\lab_3\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zharn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\zharn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

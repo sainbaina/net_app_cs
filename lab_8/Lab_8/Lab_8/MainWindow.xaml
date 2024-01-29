@@ -1,0 +1,34 @@
+﻿<Window x:Class="Lab_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_8"
+        mc:Ignorable="d"
+        Title="Web calc" Height="270" Width="217.047" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Input" HorizontalAlignment="Left" Height="177" Margin="10,10,0,0" VerticalAlignment="Top" Width="191"/>
+        <TextBox Name="OutputTextBox" HorizontalAlignment="Left" Height="39" Margin="10,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="22,34,0,0" Height="29" Click="Button_Click"/>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="56,34,0,0" Height="29" Click="Button_Click_1"/>
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="90,34,0,0" Height="29" Click="Button_Click_2"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="124,34,0,0" Height="29" Click="Button_Click_3"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="158,34,0,0" Height="29" Click="Button_Click_4"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="22,68,0,0" Height="29" Click="Button_Click_5"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="56,68,0,0" Height="29" Click="Button_Click_6"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="90,68,0,0" Height="29" Click="Button_Click_7"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="124,68,0,0" Height="29" Click="Button_Click_8"/>
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="158,68,0,0" Height="29" Click="Button_Click_9"/>
+        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="22,112,0,0" Height="29" Click="Button_Click_10"/>
+        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="56,112,0,0" Height="29" Click="Button_Click_11"/>
+        <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="90,112,0,0" Height="29" Click="Button_Click_12"/>
+        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="124,112,0,0" Height="29" Click="Button_Click_13"/>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="158,112,0,0" Height="29" Click="Button_Click_14"/>
+        <TextBox Name="InputTextBox" Margin="22,150,91.667,0" Height="29" VerticalAlignment="Top"></TextBox>
+        <Button Content="сброс" HorizontalAlignment="Left" VerticalAlignment="Top" Width="63" Margin="124,150,0,0" Height="29" Click="Button_Click_15"/>
+
+    </Grid>
+</Window>

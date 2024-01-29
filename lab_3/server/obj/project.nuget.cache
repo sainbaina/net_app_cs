@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hRcvWaRzpVv/7G856NqpyVrGFS30PDKKZqINkRx+UwObawK9krktU4tSIgayODF4z5Te/BQ5AMFTIJRmf6W7gw==",
+  "dgSpecHash": "7WjmDv/54t/WyKCdmI0Alw5nAKZ5Ti10XWAEKkP/Ggyo8DZQhUJyCdNQtlv2t4yvE8evGqnm3g6IrMJKTPVpRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zharn\\Desktop\\subjects\\3 year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj",
+  "projectFilePath": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\IS Architecture\\net_app_cs\\lab_3\\server\\server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zharn\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\zharn\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",

@@ -9,6 +9,7 @@ namespace app
     {
         public DbSet<Car> Cars { get; set; }
         public DbSet<Plane> Planes { get; set; }
+        public DbSet<RepairCompany> RepairCompanies { get; set; }
 
         public string DbPath{get;}
 
